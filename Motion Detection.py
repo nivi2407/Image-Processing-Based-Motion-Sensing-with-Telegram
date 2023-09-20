@@ -134,8 +134,8 @@ def sendvid(objc):
         bot.sendVideo(chat_id, video=open('./video.mp4', 'rb'))
 
 
-#bot = telepot.Bot('5344427693:AAG0LnkC8VeM7ykp2oYc8nkeG1CnbvUJDIA')
-#bot_api= 465509021
+bot = telepot.Bot('<token id>')
+bot_api= 465509021
 bot.message_loop(handle)
 bot.sendMessage(1126960078,text="Hello I'm your assistant")
 bot.sendMessage(1126960078,text="How can I Help You?")
