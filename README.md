@@ -10,16 +10,16 @@ An algorithm for detecting moving objects from video sequences using image proce
 
 ## Motion Detection Examples
 
-<div align="center">
-### Cat Motion Detection | Dog Motion Detection
 
+### Cat Motion Detection | Dog Motion Detection
+<div align="center">
   <img src="https://github.com/nivi2407/IMAGE-PROCESSING-BASED-MOTION-SENSING-WITH-TELEGRAM/assets/79712578/8cde14a5-5d36-4e1b-8d9b-f4cbc0043a29" alt="Cat Motion" width="400" height="450" style="margin-right: 20px;">
   <img src="https://github.com/nivi2407/IMAGE-PROCESSING-BASED-MOTION-SENSING-WITH-TELEGRAM/assets/79712578/514288d3-f9d1-44ab-887b-fb11008530d0" alt="Dog Motion" width="400" height="450">
 </div>
 
-<div align="center">
-### Human Motion Detection
 
+### Human Motion Detection
+<div>
   <img src="https://github.com/nivi2407/IMAGE-PROCESSING-BASED-MOTION-SENSING-WITH-TELEGRAM/assets/79712578/9dcdd30d-867a-44e6-8d60-5713e9be4462" alt="Real-time Motion Detection" width="400" height="450" style="margin-right: 20px;">
   <img src="https://github.com/nivi2407/IMAGE-PROCESSING-BASED-MOTION-SENSING-WITH-TELEGRAM/assets/79712578/2c08536e-0e7b-48c2-8647-8d3ffd3bdbd3" alt="Real-time Motion Detection" width="400" height="450">
 </div>
