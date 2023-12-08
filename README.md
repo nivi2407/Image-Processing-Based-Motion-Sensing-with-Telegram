@@ -16,8 +16,7 @@ An algorithm for detecting moving objects from video sequences using image proce
 ### Dog Motion Detection
 ![Dog Motion](https://github.com/nivi2407/IMAGE-PROCESSING-BASED-MOTION-SENSING-WITH-TELEGRAM/assets/79712578/514288d3-f9d1-44ab-887b-fb11008530d0)
 
-### Human Motion Detection
-Real-time detection and notification for humans, cats, and dogs.
+### Human Motion Detection: Real-time detection and notification for humans, cats, and dogs.
 ![Real-time Motion Detection](https://github.com/nivi2407/IMAGE-PROCESSING-BASED-MOTION-SENSING-WITH-TELEGRAM/assets/79712578/9dcdd30d-867a-44e6-8d60-5713e9be4462)
 ![Real-time Motion Detection](https://github.com/nivi2407/IMAGE-PROCESSING-BASED-MOTION-SENSING-WITH-TELEGRAM/assets/79712578/2c08536e-0e7b-48c2-8647-8d3ffd3bdbd3)
 
