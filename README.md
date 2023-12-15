@@ -1,8 +1,8 @@
 # Image Processing-Based Motion Sensing with Telegram
 
-An algorithm for detecting moving objects from video sequences using image processing. Motion detection software is crucial for enhancing security features, such as motion sensor lighting and security cameras. This project focuses on Python-based motion detection, identifying movements of humans, cats, or dogs in front of a camera. The proposed method employs a neural network model for movement detection, coupled with image processing techniques.
+    An algorithm for detecting moving objects from video sequences using image processing. Motion detection software is crucial for enhancing security features, such as motion sensor lighting and security cameras. This project focuses on Python-based motion detection, identifying movements of humans, cats, or dogs in front of a camera. The proposed method employs a neural network model for movement detection, coupled with image processing techniques.
 
-Features
+Features:
 
 - **Motion Detection:** Utilizes a reliable background updating model and threshold methods to detect complete moving objects, including humans, cats, and dogs.
 
