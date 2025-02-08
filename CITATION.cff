@@ -6,24 +6,19 @@ authors:
   - name: "Ragavi, S."
   - name: "Lalitha, K."
 title: "Image processing based motion sensing with telegram chat-bot"
+type: "software"
 version: 2.0.4
 doi: "10.1063/5.0203719"
 url: "https://doi.org/10.1063/5.0203719"
-preferred-citation:
- type: article
- authors:
-  - name: "Nivetha, S."
-  - name: "Harija, S."
-  - name: "Ragavi, S."
-  - name: "Lalitha, K."
-doi: "10.1063/5.0203719"
-journal: "AIP Conference Proceedings"
-title: "Image processing based motion sensing with telegram chat-bot"
-volume: "2853"
-number: "1"
-pages: "020282"
-year: "2024"
-month: "May"
 repository-code: "https://github.com/nivi2407/Image-Processing-Based-Motion-Sensing-with-Telegram"
-abstract: "An algorithm for detecting active objects from real-time is presented. Security cameras are common devices that especially use motion sensing technology. Nowadays, cameras with motion detectors are preferred for better protection. Motion detection technology is widely used for security purposes. Here with python programming motion detection software is used that detects human, cat and dog movement in front of the camera. Caffe model is used for image processing based motion sensing that are pretrained. The detected movement is notified to the user via the Telegram chatbot along with detected video. Images and videos can also be retrieved in it."
+date-released: "2024-05-01"
 license: "MIT"
+preferred-citation:
+  type: "software"
+  authors:
+    - name: "Nivetha, S."
+    - name: "Harija, S."
+    - name: "Ragavi, S."
+    - name: "Lalitha, K."
+  title: "Image processing based motion sensing with telegram chat-bot"
+  url: "https://doi.org/10.1063/5.0203719"
