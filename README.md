@@ -36,7 +36,7 @@ pip install opencv-python imutils numpy telepot
 2. Type `/newbot` and follow the steps to create your bot.
 3. Copy the **Bot Token** given by BotFather.
 4. Get your **Chat ID** using tools like [@userinfobot](https://t.me/userinfobot).
-5. Store credentials in `bot_config.py`:
+
 ```python
 BOT_TOKEN = 'your-telegram-bot-token'
 CHAT_ID = 'your-chat-id'
