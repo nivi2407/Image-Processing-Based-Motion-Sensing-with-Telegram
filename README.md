@@ -70,3 +70,7 @@ CHAT_ID = 'your-chat-id'
 | Bot Integration        | Telegram + telepot         |
 | Utilities              | NumPy, time, datetime      |
 
+## 📖 Citation
+
+[![DOI](https://zenodo.org/badge/DOI/10.1063/5.0203719.svg)](https://doi.org/10.1063/5.0203719)
+
