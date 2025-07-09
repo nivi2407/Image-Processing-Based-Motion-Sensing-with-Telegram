@@ -1,24 +1,33 @@
 cff-version: 1.2.0
 message: "If you use this project, please cite it as follows:"
-authors:
-  - name: "Nivetha, S."
-  - name: "Harija, S."
-  - name: "Ragavi, S."
-  - name: "Lalitha, K."
 title: "Image processing based motion sensing with telegram chat-bot"
-type: "software"
-version: 2.0.4
+version: "2.0.4"
+type: software
+authors:
+  - family-names: Nivetha
+    given-names: S.
+  - family-names: Harija
+    given-names: S.
+  - family-names: Ragavi
+    given-names: S.
+  - family-names: Lalitha
+    given-names: K.
 doi: "10.1063/5.0203719"
 url: "https://doi.org/10.1063/5.0203719"
 repository-code: "https://github.com/nivi2407/Image-Processing-Based-Motion-Sensing-with-Telegram"
-date-released: "2024-05-01"
+date-released: 2024-05-01
 license: "MIT"
 preferred-citation:
-  type: "software"
-  authors:
-    - name: "Nivetha, S."
-    - name: "Harija, S."
-    - name: "Ragavi, S."
-    - name: "Lalitha, K."
+  type: software
   title: "Image processing based motion sensing with telegram chat-bot"
+  authors:
+    - family-names: Nivetha
+      given-names: S.
+    - family-names: Harija
+      given-names: S.
+    - family-names: Ragavi
+      given-names: S.
+    - family-names: Lalitha
+      given-names: K.
+  doi: "10.1063/5.0203719"
   url: "https://doi.org/10.1063/5.0203719"
