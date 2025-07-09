@@ -2,21 +2,22 @@
 
 Image Processing-Based Motion Sensing with Telegram is an intelligent surveillance system built using Python, OpenCV, and deep learning. It leverages real-time video processing and object detection to identify motion from humans, cats, and dogs, and sends automated alerts (images or videos) directly to a Telegram chat via a bot interface. This project is ideal for security, home automation, or pet monitoring applications, offering an interactive and responsive way to track activity through a simple yet powerful communication channel.
 
-## Key Features:
-
-- 🎥 Motion detection using OpenCV
-- 🤖 Telegram bot alerts sent upon motion
-- 💬 Optional snapshot/image capture on motion
-- 🖥️ Works on PC or Raspberry Pi with webcam
-  
 ## 🚀 How It Works
 
 1. The system continuously captures video frames.
-2. Image processing (frame differencing) is used to detect motion.
-3. On motion detection:
-   - A notification is sent to a predefined Telegram chat.
-   - An image can optionally be saved or sent.
+2. Compares consecutive frames to detect motion.
+3. If motion is detected:
+   - Captures an image of the frame.
+   - Sends a notification (with image) to a Telegram chat using a bot.
 
+## Key Features:
+
+- Real-time motion detection
+- Frame differencing using OpenCV
+- Telegram bot integration for instant alerts
+- Captures and sends a snapshot when motion is detected
+- Lightweight and can run on Raspberry Pi or PC
+  
 ## Setup instructions:
 
 **Clone the repository**
