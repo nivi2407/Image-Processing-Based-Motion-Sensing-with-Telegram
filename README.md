@@ -2,20 +2,20 @@
 
 Image Processing-Based Motion Sensing with Telegram is an intelligent surveillance system built using Python, OpenCV, and deep learning. It leverages real-time video processing and object detection to identify motion from humans, cats, and dogs, and sends automated alerts (images or videos) directly to a Telegram chat via a bot interface. This project is ideal for security, home automation, or pet monitoring applications, offering an interactive and responsive way to track activity through a simple yet powerful communication channel.
 
-## Features:
+## Key Features:
 
-- **🎥 Motion Detection:** Utilizes a reliable background updating model and threshold methods to detect complete moving objects, including humans, cats, and dogs.
-
-- **📲 Telegram Bot Integration:** Sends notifications to an admin via a Telegram chat bot when movements are detected. Enables real-time communication by retrieving images and videos.
+- 🎥 Motion detection using OpenCV
+- 🤖 Telegram bot alerts sent upon motion
+- 💬 Optional snapshot/image capture on motion
+- 🖥️ Works on PC or Raspberry Pi with webcam
   
-- **📸 On-Demand Image Capture**
-Responds to /image command to capture and send the current camera frame.
+## 🚀 How It Works
 
-- **🎞️ On-Demand Video Recording**
-Responds to /video command to record and send a short video from the live feed.
-
-- **💬 Smart Interaction**
-Responds to greetings and provides a help menu via /help or similar commands.
+1. The system continuously captures video frames.
+2. Image processing (frame differencing) is used to detect motion.
+3. On motion detection:
+   - A notification is sent to a predefined Telegram chat.
+   - An image can optionally be saved or sent.
 
 ## Setup instructions:
 
@@ -29,19 +29,16 @@ Responds to greetings and provides a help menu via /help or similar commands.
 pip install opencv-python imutils numpy telepot
 ```
 
-## Setup your Telegram bot
-⁍ Talk to BotFather on Telegram <br>
-⁍ Create a bot and get the API token <br>
-⁍ Get your chat ID using any Telegram user ID bot
+## 🤖 Telegram Bot Setup
 
-## Update main.py:
-▹Replace #Enter token id with your bot token <br>
-▹Replace #Enter chat id with your actual chat ID
-
-## Run the project
-
-```bash
-python main.py
+1. Go to [@BotFather](https://t.me/BotFather) on Telegram.
+2. Type `/newbot` and follow the steps to create your bot.
+3. Copy the **Bot Token** given by BotFather.
+4. Get your **Chat ID** using tools like [@userinfobot](https://t.me/userinfobot).
+5. Store credentials in `bot_config.py`:
+```python
+BOT_TOKEN = 'your-telegram-bot-token'
+CHAT_ID = 'your-chat-id'
 ```
 
 ## Commands to use:
